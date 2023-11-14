@@ -1,0 +1,13 @@
+domain,count,org,party
+clients4.google.com,7,google.com,1
+tools.google.com,6,google.com,1
+android.clients.google.com,4,google.com,1
+gcm-http.googleapis.com;fcm.googleapis.com,4,googleapis.com,1
+clients3.google.com,2,google.com,1
+www.gstatic.com,2,gstatic.com,1
+www.youtube.com,1,youtube.com,1
+clients1.google.com,1,google.com,1
+ajax.googleapis.com,1,googleapis.com,1
+home-devices.googleapis.com,1,googleapis.com,1
+www.google.com,1,google.com,1
+clients4.google.com;clients3.google.com,1,google.com,1

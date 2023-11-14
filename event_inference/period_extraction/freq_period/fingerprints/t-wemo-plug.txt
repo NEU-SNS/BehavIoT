@@ -1,0 +1,12 @@
+DHCP 22:ef:03:1a:97:b9 301 
+UDP echodot4b 7136 
+UDP echospot 7114 
+UDP echoshow5 7118 
+TCP echodot4b 573 
+TCP a38uzlrxc8a6s4-ats.iot.us-east-1.amazonaws.com 60 
+TCP echospot 566 
+TCP echoshow5 572 
+NTP *.linksys.pool.ntp.org 600 
+SSDP 192.168.10.164 157 
+SSDP multicast 43170 86400 
+TCP deviceapis.xwemo.com 3600

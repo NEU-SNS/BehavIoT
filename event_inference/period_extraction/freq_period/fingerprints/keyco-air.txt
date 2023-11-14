@@ -1,0 +1,3 @@
+DNS neu.edu 300 
+TCP keycoiot.solu-m.com 300 
+DHCP 22:ef:03:1a:97:b9 300 

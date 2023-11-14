@@ -1,0 +1,4 @@
+protocol,domain,activity,org,party
+TCP,47.74.255.9,android_lan_watch,255.9,2
+TCP,49.51.153.88,android_lan_watch,153.88,2
+UDP,49.51.153.88,android_wan_audio,153.88,2

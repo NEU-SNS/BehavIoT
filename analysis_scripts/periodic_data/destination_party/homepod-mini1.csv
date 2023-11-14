@@ -1,0 +1,28 @@
+protocol,domain,period,org,party
+DNS,neu.edu,960,neu.edu,2
+TCP,gsa.apple.com,43274,Apple Inc.,1
+TCP,configuration.apple.com,86456,Apple Inc.,1
+TCP,updates.cdn-apple.com,5,Apple Inc.,1
+TCP,mesu.apple.com,960,Apple Inc.,1
+TCP,kt-prod.apple.com,43266,Apple Inc.,1
+TCP,*.com.akadns.net,960,akadns.net,2
+TCP,valid.apple.com,10918,Apple Inc.,1
+TCP,*.itunes.apple.com,20,Apple Inc.,1
+TCP,iphonesubmissions.apple.com,30,Apple Inc.,1
+TCP,swallow.apple.com,86145,Apple Inc.,1
+TCP,*.g.aaplimg.com,7200,Apple Inc.,1
+TCP,xp.apple.com,21639,Apple Inc.,1
+TCP,*.push.apple.com,301,Apple Inc.,1
+TCP,e673.dsce9.akamaiedge.net,902,akamaiedge.net,2
+TCP,e1329.g.akamaiedge.net,960,akamaiedge.net,2
+TCP,gsas.apple.com,30,Apple Inc.,1
+TCP,gateway.icloud.com,86505,Apple Inc.,1
+TCP,*.ls.apple.com,28800,Apple Inc.,1
+TCP,ocsp2.apple.com,31,Apple Inc.,1
+TCP,guzzoni.apple.com,86495,Apple Inc.,1
+TCP,setup.icloud.com,10872,Apple Inc.,1
+TCP,clientflow.apple.com,7200,Apple Inc.,1
+NTP,time-osx.g.aaplimg.com,2040,Apple Inc.,1
+NTP,time.apple.com,7288,Apple Inc.,1
+TCP,lcdn-locator.apple.com,172800,Apple Inc.,1
+TCP,pancake.apple.com,86400,Apple Inc.,1

@@ -1,0 +1,28 @@
+domain,count,org,party
+tinytts.amazon.com,140,amazon.com,1
+prod.amcs-tachyon.com,136,"Amazon Technologies, Inc.",1
+device-metrics-us.amazon.com,88,amazon.com,1
+unagi-na.amazon.com,39,amazon.com,1
+b82ae34a18a42367f46d65222cb0e97d6914c2a7c50abbfd61deaa1ed388b2c.us-east-1.prod.service.minerva.devices.a2z.com,12,a2z.com,3
+avs-alexa-5-na.amazon.com,11,amazon.com,1
+det-ta-g7g.amazon.com,9,amazon.com,1
+m.media-amazon.com,7,media-amazon.com,1
+d17klky2x7cw7m.cloudfront.net,4,"Amazon Technologies, Inc.",1
+device-messaging-na.amazon.com,4,amazon.com,1
+abk6gs5nzngf.na.api.amazonvideo.com,4,amazonvideo.com,1
+s3.amazonaws.com,3,amazonaws.com,1
+dp-rsm-prod.amazon.com,3,amazon.com,1
+arl.assets.apl-alexa.com,3,apl-alexa.com,1
+mm-smarthome-resources.s3-us-west-2.amazonaws.com,3,amazonaws.com,1
+todo-ta-g7g.amazon.com,2,amazon.com,1
+wl.amazon-dss.com,2,amazon-dss.com,1
+d24fmma24bxqwu.cloudfront.net,2,"Amazon Technologies, Inc.",1
+da71lv4s2a6ll.cloudfront.net,2,"Amazon Technologies, Inc.",1
+dss-na.amazon.com,2,amazon.com,1
+dcape-na.amazon.com,2,amazon.com,1
+smarthome-resources.s3.amazonaws.com,1,amazonaws.com,1
+msh.amazon.com,1,amazon.com,1
+softwareupdates.amazon.com,1,amazon.com,1
+mmhome-static-content-prod.s3.amazonaws.com,1,amazonaws.com,1
+images-na.ssl-images-amazon.com,1,ssl-images-amazon.com,1
+api.amazon.com,1,amazon.com,1

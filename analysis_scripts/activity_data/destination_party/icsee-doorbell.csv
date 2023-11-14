@@ -1,0 +1,3 @@
+protocol,domain,activity,org,party
+UDP,secu100.net,android_lan_audio,secu100.net,2
+TCP,*.compute.amazonaws.com,android_wan_audio,amazonaws.com,2

@@ -1,0 +1,12 @@
+DNS dns.google 599 
+DNS neu.edu 602 
+DHCP ff:ff:ff:ff:ff:ff 301 
+DHCP 192.168.10.254 599 
+UDP 22:ef:03:1a:97:b9 600 72000 
+UDP *.compute.hwclouds-dns.com 600 
+UDP 112.124.0.188 600 
+UDP *.compute.amazonaws.com 601 
+TCP caps.xmcsrv.net 600 
+TCP pub-cfg.secu100.net 600 
+TCP *.compute.amazonaws.com 119 
+NTP time.windows.com 600 

@@ -1,0 +1,28 @@
+protocol,domain,period,org,party
+DNS,nb9621.neu.edu,311,neu.edu,2
+DNS,neu.edu,310,neu.edu,2
+TCP,api.us-east-1.aiv-delivery.net,14400,aiv-delivery.net,2
+TCP,avs-alexa-5-na.amazon.com,600,amazon.com,1
+TCP,device-metrics-us.amazon.com,3600,amazon.com,1
+TCP,fls-na.amazon.com,86400,amazon.com,1
+TCP,images-na.ssl-images-amazon.com,72024,ssl-images-amazon.com,1
+TCP,d3h5bk8iotgjvw.cloudfront.net,43200,"Amazon Technologies, Inc.",1
+TCP,kindle-time.amazon.com,310,amazon.com,1
+TCP,device-messaging-na.amazon.com,79173,amazon.com,1
+TCP,wl.amazon-dss.com,86400,amazon-dss.com,1
+TCP,api.amazonalexa.com,289,amazonalexa.com,1
+TCP,m.media-amazon.com,300,media-amazon.com,1
+TCP,msh.amazon.com,7276,amazon.com,1
+TCP,prod.amcs-tachyon.com,91,"Amazon Technologies, Inc.",1
+TCP,drive.amazonaws.com,3600,amazonaws.com,1
+TCP,*.s3.amazonaws.com,310,amazonaws.com,1
+TCP,prod.amazoncrl.com,43200,amazoncrl.com,1
+TCP,d3p8zr0ffa9t17.cloudfront.net,310,"Amazon Technologies, Inc.",1
+TCP,todo-ta-g7g.amazon.com,172800,amazon.com,1
+TCP,dss-na.amazon.com,21653,amazon.com,1
+TCP,det-ta-g7g.amazon.com,71974,amazon.com,1
+TCP,api.amazon.com,657,amazon.com,1
+TCP,abk6gs5nzngf.na.api.amazonvideo.com,14400,amazonvideo.com,1
+TCP,arcus-uswest.amazon.com,86400,amazon.com,1
+NTP,2.android.pool.ntp.org,86401,ntp.org,2
+NTP,ntp-g7g.amazon.com,310,amazon.com,1

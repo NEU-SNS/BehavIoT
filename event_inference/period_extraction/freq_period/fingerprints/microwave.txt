@@ -1,0 +1,4 @@
+DNS neu.edu 3739 
+DHCP 22:ef:03:1a:97:b9 312 
+TCP secure.brillion.geappliances.com 3739 
+TCP xmpp14.wca.geappliances.com 601 

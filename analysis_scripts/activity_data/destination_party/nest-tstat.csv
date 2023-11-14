@@ -1,0 +1,2 @@
+protocol,domain,activity,org,party
+TCP,*.home.nest.com,alexa_set,nest.com,1

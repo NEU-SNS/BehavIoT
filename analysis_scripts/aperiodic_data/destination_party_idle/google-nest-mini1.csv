@@ -1,0 +1,16 @@
+domain,count,org,party
+clients3.google.com,9,google.com,1
+connectivitycheck.gstatic.com,8,gstatic.com,1
+google-home-mini2,6,google-home-mini2,1
+lycraservice-pa.googleapis.com,5,googleapis.com,1
+www.googleapis.com,4,googleapis.com,1
+lycraservice-pa.googleapis.com;fcm.googleapis.com,3,googleapis.com,1
+tools.google.com,3,google.com,1
+clients4.google.com,3,google.com,1
+clientservices.googleapis.com,3,googleapis.com,1
+www.google.com,3,google.com,1
+play.googleapis.com,2,googleapis.com,1
+clients1.google.com,1,google.com,1
+www.gstatic.com,1,gstatic.com,1
+fcm.googleapis.com,1,googleapis.com,1
+play.googleapis.com;lycraservice-pa.googleapis.com,1,googleapis.com,1

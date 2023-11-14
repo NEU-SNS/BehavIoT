@@ -1,0 +1,2 @@
+protocol,domain,activity,org,party
+TCP,mqtt-us.meross.com,alexa_close,meross.com,1

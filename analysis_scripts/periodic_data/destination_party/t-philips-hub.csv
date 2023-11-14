@@ -1,0 +1,14 @@
+protocol,domain,period,org,party
+NTP,time4.google.com,4228,google.com,3
+NTP,time1.google.com,4200,google.com,3
+NTP,time3.google.com,4252,google.com,3
+NTP,time2.google.com,4266,google.com,3
+TCP,dcp.dc1.philips.com,3600,Not Disclosed,3
+TCP,ws.meethue.com,60,Not Disclosed,3
+TCP,mqtt.2030.ltsapis.goog,30,ltsapis.goog,3
+TCP,data.meethue.com,3600,Not Disclosed,1
+TCP,diag.meethue.com,85980,Not Disclosed,1
+TCP,www.ecdinterface.philips.com,86399,Not Disclosed,3
+TCP,diagnostics.meethue.com,60,Not Disclosed,3
+DNS,nb9621.neu.edu,3600,neu.edu,2
+DNS,neu.edu,3600,neu.edu,2

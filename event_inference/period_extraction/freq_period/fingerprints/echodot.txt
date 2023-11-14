@@ -1,0 +1,24 @@
+MDNS multicast 289 
+DHCP 1e:f2:0c:cc:ed:1c 289 
+DNS neu.edu 310 
+TCP device-metrics-us.amazon.com 3600 
+TCP avs-alexa-4-na.amazon.com 300 
+TCP discovery.meethue.com 3752 
+TCP dxz5jxhrrzigf.cloudfront.net 3618 
+TCP fos5echocaptiveportal.com 310 
+TCP d3h5bk8iotgjvw.cloudfront.net 43200 86400 
+TCP dp-rsm-prod.amazon.com 82260 165600 
+TCP wl.amazon-dss.com 86460 172800 
+TCP api.amazonalexa.com 240 
+TCP device-artifacts-v2.s3.amazonaws.com 8633 
+TCP prod.amcs-tachyon.com 91 
+TCP prod.amazoncrl.com 43200 86400 
+TCP d3p8zr0ffa9t17.cloudfront.net 310 
+TCP todo-ta-g7g.amazon.com 86400 172800 
+TCP dss-na.amazon.com 21646 43200 
+TCP api.amazon.com 3600 
+TCP arcus-uswest.amazon.com 86402 
+NTP 2.android.pool.ntp.org 86400 172800 
+NTP ntp-g7g.amazon.com 310 
+SSDP multicast 7085 14400 
+TCP msh.amazon.com 93600 

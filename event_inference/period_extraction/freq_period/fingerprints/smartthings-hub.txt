@@ -1,0 +1,4 @@
+TCP dc-na04-useast2.connect.smartthings.com 41 
+TCP api.smartthings.com 60 
+DHCP 22:ef:03:1a:97:b9 301 
+DNS neu.edu 60 

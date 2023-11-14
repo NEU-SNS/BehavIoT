@@ -1,0 +1,5 @@
+protocol,domain,period,org,party
+NTP,*.pool.ntp.org,3600,ntp.org,2
+NTP,time1.aliyun.com,3601,aliyun.com,2
+DNS,neu.edu,3600,neu.edu,2
+TCP,mqtt-us.meross.com,30,meross.com,1

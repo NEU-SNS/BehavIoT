@@ -1,0 +1,3 @@
+protocol,domain,activity,org,party
+TCP,*.auto.mydlink.com,android_lan_photo,"Domains By Proxy, LLC",1
+UDP,*.auto.mydlink.com,android_lan_photo,"Domains By Proxy, LLC",1

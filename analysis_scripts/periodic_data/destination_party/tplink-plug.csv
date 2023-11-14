@@ -1,0 +1,5 @@
+protocol,domain,period,org,party
+DNS,nb9621.neu.edu,3603,neu.edu,2
+TCP,devs.tplinkcloud.com,236,REDACTED FOR PRIVACY,1
+TCP,n-devs.tplinkcloud.com,236,REDACTED FOR PRIVACY,1
+NTP,*.pool.ntp.org,3603,ntp.org,2

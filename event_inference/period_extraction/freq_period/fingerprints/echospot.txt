@@ -1,0 +1,38 @@
+MDNS multicast 289 
+DNS nb9621.neu.edu 311 
+DNS neu.edu 310 
+DHCP 22:ef:03:1a:97:b9 289 
+UDP 192.168.10.177 7297 
+UDP 192.168.10.183 7297 
+TCP api.us-east-1.aiv-delivery.net 14400 28800 
+TCP avs-alexa-5-na.amazon.com 600 
+TCP device-metrics-us.amazon.com 3600 
+TCP t-philips-hub 7097 
+TCP fls-na.amazon.com 86400 172800 
+TCP images-na.ssl-images-amazon.com 72024 158400 
+TCP wansview-cam-wired 7297 
+TCP d3h5bk8iotgjvw.cloudfront.net 43200 79200 
+TCP kindle-time.amazon.com 310 
+TCP device-messaging-na.amazon.com 79173 172800 
+TCP wl.amazon-dss.com 86400 172800 
+TCP api.amazonalexa.com 289 
+TCP m.media-amazon.com 300 
+TCP msh.amazon.com 7276 
+TCP prod.amcs-tachyon.com 91 
+TCP drive.amazonaws.com 3600 
+TCP *.s3.amazonaws.com 310 
+TCP prod.amazoncrl.com 43200 79200 
+TCP d3p8zr0ffa9t17.cloudfront.net 310 
+TCP amcrest-cam-wired 7081 
+TCP todo-ta-g7g.amazon.com 172800 33
+TCP dss-na.amazon.com 21653 43200 
+TCP det-ta-g7g.amazon.com 71974 144000 
+TCP api.amazon.com 657 28800 
+TCP abk6gs5nzngf.na.api.amazonvideo.com 14400 28800 
+TCP t-wemo-plug 566 
+TCP arcus-uswest.amazon.com 86400 172800 
+NTP 2.android.pool.ntp.org 86401 172800 
+NTP ntp-g7g.amazon.com 310 
+SSDP 192.168.10.164 7114 
+SSDP 192.168.10.163 7297 
+SSDP multicast 7297 

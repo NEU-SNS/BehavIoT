@@ -1,0 +1,7 @@
+protocol,domain,period,org,party
+NTP,echo-disp.ntp-fireos.com,86478,ntp-fireos.com,3
+DNS,neu.edu,3600,neu.edu,2
+TCP,device-metrics-us-2.amazon.com,3600,amazon.com,1
+TCP,a1piwaqdydua5q.iot.us-east-1.amazonaws.com,30,amazonaws.com,1
+TCP,softwareupdates.amazon.com,93600,amazon.com,1
+TCP,api.amazon.com,187200,amazon.com,1

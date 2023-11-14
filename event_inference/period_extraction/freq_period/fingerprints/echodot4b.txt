@@ -1,0 +1,33 @@
+DNS nb9621.neu.edu 1 
+DNS neu.edu 290 14400 
+DHCP 22:ef:03:1a:97:b9 290 
+UDP 192.168.10.224 7302 14400 
+UDP 192.168.10.183 7132 
+UDP ff:ff:ff:ff:ff:ff 7302 14400 
+UDP 192.168.10.188 7136 
+UDP 192.168.10.223 7110 14400 
+UDP 192.168.10.177 7132 
+UDP multicast 7302 14400 
+TCP fireoscaptiveportal.com 290 
+TCP t-philips-hub 573 
+TCP alexa.na.gateway.devices.a2z.com 60 
+TCP wansview-cam-wired 7132 
+TCP device-messaging-na.amazon.com 86400 172800 
+TCP api.amazonalexa.com 901 
+TCP acsechocaptiveportal.com 290 
+TCP msh.amazon.com 14593 
+TCP prod.amcs-tachyon.com 91 
+TCP d3p8zr0ffa9t17.cloudfront.net 310 
+TCP device-metrics-us-2.amazon.com 2460 
+TCP amcrest-cam-wired 7132 
+TCP api.amazon.com 3500 
+TCP t-wemo-plug 573 
+TCP arcus-uswest.amazon.com 86400 172800 
+NTP ntp-g7g.amazon.com 290 
+SSDP 192.168.10.164 7136 
+SSDP 192.168.10.163 7132 
+SSDP multicast 7132 
+TCP ffs-provisioner-config.amazon-dss.com 295200 
+TCP softwareupdates.amazon.com 180000 
+TCP *.s3.amazonaws.com 57600 
+NTP 0.north-america.pool.ntp.org 79200 

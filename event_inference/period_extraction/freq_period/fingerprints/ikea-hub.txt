@@ -1,0 +1,6 @@
+NTP time01.leardev.de 86400 172800 
+DNS nb9621.neu.edu 86400 172800 
+DNS neu.edu 86400 172800 
+DHCP 22:ef:03:1a:97:b9 300 
+TCP a1nvlh0fc0asuq.iot.us-east-1.amazonaws.com 30 
+TCP fw.ota.homesmart.ikea.net 86400 172800 

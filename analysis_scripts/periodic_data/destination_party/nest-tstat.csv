@@ -1,0 +1,8 @@
+protocol,domain,period,org,party
+NTP,time.nest.com,4200,nest.com,1
+DNS,nb9621.neu.edu,1800,neu.edu,2
+DNS,neu.edu,1800,neu.edu,2
+TCP,*.home.nest.com,120,nest.com,1
+TCP,weather.nest.com,12,nest.com,1
+TCP,logsink.devices.nest.com,1800,nest.com,1
+TCP,squeakydoor.nest.com,172800,nest.com,1

@@ -1,0 +1,11 @@
+NTP ntp.exact-time.org 4215 50400 
+NTP mon2.hostin.cc 4194 43200 
+NTP purple.bonev.com 4255 50400 
+NTP helsinki-01.ea.gr 4249 50400 
+DHCP 22:ef:03:1a:97:b9 300 
+TCP *.compute-1.amazonaws.com 30 
+TCP 3.90.178.36 30
+SSDP echodot4b 7132 
+SSDP multicast 1800 
+SSDP echospot 7297 
+SSDP echoshow5 7117 14400 

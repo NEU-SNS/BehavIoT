@@ -1,0 +1,24 @@
+NTP time4.google.com 4228 50400 
+NTP time1.google.com 4200 50400 
+NTP time3.google.com 4252 50400 
+NTP time2.google.com 4266 50400 
+DHCP 22:ef:03:1a:97:b9 300 
+TCP dcp.dc1.philips.com 3600 
+TCP ws.meethue.com 60 172800 
+TCP mqtt.2030.ltsapis.goog 30 
+TCP data.meethue.com 3600 
+TCP echospot 7097 
+TCP diag.meethue.com 85980 172800 
+TCP www.ecdinterface.philips.com 86399 172800 
+TCP diagnostics.meethue.com 60 172800 
+TCP echodot4b 573 
+TCP echoshow5 568 
+DNS nb9621.neu.edu 3600 
+DNS neu.edu 3600 172800 
+SSDP echospot 7114 
+SSDP anpviz-cam 8 
+SSDP 22:ef:03:1a:97:b9 120 158400 
+SSDP multicast 51 
+SSDP echodot4b 7136 
+SSDP t-wemo-plug 157 
+SSDP echoshow5 7363 

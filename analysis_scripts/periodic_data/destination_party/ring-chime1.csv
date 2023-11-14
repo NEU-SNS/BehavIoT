@@ -1,0 +1,6 @@
+protocol,domain,period,org,party
+NTP,*.pool.ntp.org,1819,ntp.org,2
+DNS,dns.google,1819,dns.google,3
+TCP,fw-ch.ring.com,87019,ring.com,1
+TCP,es.ring.com,184,ring.com,1
+TCP,ch.ring.com,31,ring.com,1

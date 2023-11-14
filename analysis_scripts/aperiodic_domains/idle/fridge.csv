@@ -1,0 +1,16 @@
+Domain,Flow
+api.weather.com,23
+samsung-image-cdn.whisk.com,8
+kics-epa.samsungepa.com,7
+us-fhapi.cspserver.net,6
+ocfconnect-shard-na03-useast2.samsungiotcloud.com,5
+uimetadata.samsungiotcloud.com,3
+log.samsunghrm.com,2
+*.compute.amazonaws.com,2
+gld.push.samsungosp.com,1
+osb-secure.samsungqbe.com,1
+gpm.samsungqbe.com,1
+ash-use2.mgmt.aibixby.com,1
+bixby-client.aibixby.com,1
+api.tizenservice.com,1
+provisioning-use2.mgmt.aibixby.com,1

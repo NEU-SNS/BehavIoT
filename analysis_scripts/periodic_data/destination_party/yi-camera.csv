@@ -1,0 +1,6 @@
+protocol,domain,period,org,party
+DNS,neu.edu,3697,neu.edu,2
+TCP,api.us.xiaoyi.com,8038,xiaoyi.com,1
+UDP,47.88.59.209,28,59.209,2
+UDP,47.90.240.160,28,240.160,2
+UDP,47.74.255.9,28,255.9,2

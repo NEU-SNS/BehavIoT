@@ -1,0 +1,23 @@
+protocol,domain,period,org,party
+NTP,2.android.pool.ntp.org,86400,ntp.org,2
+NTP,ntp-g7g.amazon.com,310,"Amazon Technologies, Inc.",1
+TCP,device-messaging-na.amazon.com,7232,amazon.com,1
+TCP,prod.amcs-tachyon.com,91,"Amazon Technologies, Inc.",1
+TCP,avs-alexa-4-na.amazon.com,600,amazon.com,1
+TCP,api.amazon.com,3600,amazon.com,1
+TCP,device-artifacts-v2.s3.amazonaws.com,20863,amazonaws.com,1
+TCP,arcus-uswest.amazon.com,86432,amazon.com,1
+TCP,dss-na.amazon.com,21655,amazon.com,1
+TCP,d3h5bk8iotgjvw.cloudfront.net,43132,"Amazon Technologies, Inc.",1
+TCP,prod.amazoncrl.com,43132,amazoncrl.com,1
+TCP,fos5echocaptiveportal.com,310,fos5echocaptiveportal.com,3
+TCP,wl.amazon-dss.com,86452,amazon-dss.com,1
+TCP,discovery.meethue.com,3754,Not Disclosed,3
+TCP,d3p8zr0ffa9t17.cloudfront.net,310,"Amazon Technologies, Inc.",1
+TCP,dp-rsm-prod.amazon.com,84195,amazon.com,1
+TCP,device-metrics-us.amazon.com,302,amazon.com,1
+TCP,api.amazonalexa.com,240,amazonalexa.com,1
+TCP,dxz5jxhrrzigf.cloudfront.net,86400,"Amazon Technologies, Inc.",1
+DNS,neu.edu,310,neu.edu,2
+TCP,todo-ta-g7g.amazon.com,172800,amazon.com,1
+TCP,updates.amazon.com,180000,amazon.com,1

@@ -1,0 +1,4 @@
+MDNS multicast 301 
+DNS neu.edu 86402 172800 
+DHCP 22:ef:03:1a:97:b9 301 
+TCP *.auto.mydlink.com 55 

@@ -1,0 +1,29 @@
+MDNS multicast 1019 
+DNS neu.edu 960 
+DHCP ca:62:75:3f:c8:9a 3600 
+TCP gsa.apple.com 43274 86400 
+TCP configuration.apple.com 86456 172800 
+TCP updates.cdn-apple.com 5 
+TCP mesu.apple.com 960 
+TCP kt-prod.apple.com 43266 86400 
+TCP *.com.akadns.net 960 
+TCP valid.apple.com 10918 21600 
+TCP *.itunes.apple.com 20 172800 
+TCP iphonesubmissions.apple.com 30 
+TCP swallow.apple.com 86145 172800 
+TCP *.g.aaplimg.com 7200 
+TCP xp.apple.com 21639 43200 
+TCP *.push.apple.com 301 
+TCP e673.dsce9.akamaiedge.net 902 
+TCP e1329.g.akamaiedge.net 960 
+TCP gsas.apple.com 30 172800 
+TCP gateway.icloud.com 86505 172800 
+TCP *.ls.apple.com 28800 57600 
+TCP ocsp2.apple.com 31 
+TCP guzzoni.apple.com 86495 172800 
+TCP setup.icloud.com 10872 
+TCP clientflow.apple.com 7200 
+NTP time-osx.g.aaplimg.com 2040 
+NTP time.apple.com 7288 
+TCP lcdn-locator.apple.com 172800 
+TCP pancake.apple.com 86400 

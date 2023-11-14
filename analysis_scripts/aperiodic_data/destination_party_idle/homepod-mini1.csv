@@ -1,0 +1,20 @@
+domain,count,org,party
+e1329.g.akamaiedge.net,7,akamaiedge.net,2
+a1806.dscb.akamai.net;play.itunes.apple.com,4,Apple Inc.,1
+setup.icloud.com,3,Apple Inc.,1
+gdmf.apple.com,2,Apple Inc.,1
+gspe35-ssl.ls.apple.com,2,Apple Inc.,1
+updates.cdn-apple.com,2,Apple Inc.,1
+setup.icloud.com;setup.fe.apple-dns.net;p48-fmfmobile.icloud.com,2,Apple Inc.,1
+cs9.wac.phicdn.net,2,"Domains By Proxy, LLC",3
+setup.icloud.com;setup.fe.apple-dns.net,1,Apple Inc.,1
+guzzoni.apple.com,1,Apple Inc.,1
+clientflow.g.aaplimg.com;ocsp2.apple.com,1,Apple Inc.,1
+mesu.apple.com;mesu-cdn.origin-apple.com.akadns.net;e1329.g.akamaiedge.net,1,akamaiedge.net,2
+configuration.apple.com,1,Apple Inc.,1
+iphonesubmissions.apple.com,1,Apple Inc.,1
+aidc.apple.com,1,Apple Inc.,1
+configuration.apple.com;e673.dsce9.akamaiedge.net,1,akamaiedge.net,2
+lcdn-locator.apple.com,1,Apple Inc.,1
+guzzoni-apple-com.v.aaplimg.com;guzzoni.apple.com,1,Apple Inc.,1
+e673.dsce9.akamaiedge.net,1,akamaiedge.net,2

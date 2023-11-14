@@ -1,0 +1,2 @@
+protocol,domain,period,org,party
+TCP,*.boxen.electricimp.com,55,electricimp.com,3

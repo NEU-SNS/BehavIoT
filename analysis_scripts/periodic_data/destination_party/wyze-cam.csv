@@ -1,0 +1,10 @@
+protocol,domain,period,org,party
+DNS,dns.google,7202,dns.google,3
+UDP,esx1.fazey.org,40,"Domains By Proxy, LLC",3
+UDP,*.ip.linodeusercontent.com,40,linodeusercontent.com,3
+UDP,104.149.140.74,40,140.74,3
+TCP,aws-iot.wyzecam.com,62,wyzecam.com,1
+TCP,*.us-west-2.amazonaws.com,10,amazonaws.com,2
+TCP,wyze-general-api.wyzecam.com,43203,wyzecam.com,1
+NTP,clock.fmt.he.net,7199,he.net,3
+TCP,device-api.wyzecam.com,21600,wyzecam.com,1

@@ -1,0 +1,6 @@
+DNS neu.edu 1236 
+DHCP ff:ff:ff:ff:ff:ff 901 
+DHCP 192.168.10.254 901 
+DHCP 22:ef:03:1a:97:b9 901 
+TCP wu.ring.com 901 
+TCP rss-dpd-service.ring.com 300 

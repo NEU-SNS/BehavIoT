@@ -1,0 +1,3 @@
+protocol,domain,activity,org,party
+UDP,aws3nat.tuyaus.com,android_lan_audio,tuyaus.com,1
+UDP,aws4nat.tuyaus.com,android_lan_audio,tuyaus.com,1

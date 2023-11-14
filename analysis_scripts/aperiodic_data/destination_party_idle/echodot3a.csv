@@ -1,0 +1,9 @@
+domain,count,org,party
+*.compute.amazonaws.com,950,amazonaws.com,1
+api.amazonalexa.com,133,amazonalexa.com,1
+todo-ta-g7g.amazon.com,1,amazon.com,1
+softwareupdates.amazon.com,1,amazon.com,1
+ffs-provisioner-config.amazon-dss.com,1,amazon-dss.com,1
+dss-na.amazon.com,1,amazon.com,1
+device-messaging-na.amazon.com,1,amazon.com,1
+arcus-uswest.amazon.com,1,amazon.com,1

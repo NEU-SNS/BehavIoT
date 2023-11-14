@@ -1,0 +1,4 @@
+protocol,domain,period,org,party
+TCP,dc-na04-useast2.connect.smartthings.com,41,smartthings.com,1
+TCP,api.smartthings.com,60,smartthings.com,1
+DNS,neu.edu,60,neu.edu,2

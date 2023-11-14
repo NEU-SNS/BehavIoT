@@ -1,0 +1,19 @@
+device,aperiodic domain count,first party,support party,third party
+switchbot-hub,0,0,0,0
+amazon-plug,4,4,0,0
+ring-camera,1,1,0,0
+meross-dooropener,0,0,0,0
+govee-led1,1,0,1,0
+gosund-bulb1,2,0,0,2
+echospot,27,26,0,1
+tplink-plug,0,0,0,0
+bulb1,2,2,0,0
+magichome-strip,1,1,0,0
+nest-tstat,10,10,0,0
+tplink-bulb,2,2,0,0
+wyze-cam,8,2,4,2
+smartlife-bulb,2,2,0,0
+dlink-camera,0,0,0,0
+ikettle,1,0,0,1
+ring-doorbell,0,0,0,0
+t-wemo-plug,1,0,1,0

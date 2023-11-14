@@ -1,0 +1,4 @@
+protocol,domain,activity,org,party
+TCP,ovca18.vimtag.com,android_lan_audio,"Domains By Proxy, LLC",3
+UDP,ovca18.vimtag.com,android_lan_audio,"Domains By Proxy, LLC",3
+UDP,*.compute.amazonaws.com,android_lan_audio,amazonaws.com,2

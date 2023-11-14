@@ -1,0 +1,7 @@
+NTP echo-disp.ntp-fireos.com 86478 172800 
+DNS neu.edu 3600 
+DHCP 22:ef:03:1a:97:b9 300 
+TCP device-metrics-us-2.amazon.com 3600 
+TCP a1piwaqdydua5q.iot.us-east-1.amazonaws.com 30 
+TCP softwareupdates.amazon.com 93600 
+TCP api.amazon.com 187200 

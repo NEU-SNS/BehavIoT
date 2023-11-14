@@ -1,0 +1,6 @@
+protocol,domain,period,org,party
+DNS,neu.edu,3606,neu.edu,2
+UDP,p2p3.nwsvr2.com,60,nwsvr2.com,2
+UDP,p2p4.nwsvr2.com,60,nwsvr2.com,2
+TCP,www.ip138.com,86507,ip138.com,3
+NTP,time.nist.gov,3606,nist.gov,3

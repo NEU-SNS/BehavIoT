@@ -1,0 +1,33 @@
+protocol,domain,period,org,party
+DNS,neu.edu,3600,neu.edu,2
+UDP,ff:ff:ff:ff:ff:ff,7208,ff:ff:ff:ff:ff:ff,3
+TCP,api.us-east-1.aiv-delivery.net,13710,aiv-delivery.net,2
+TCP,device-metrics-us.amazon.com,7200,amazon.com,1
+TCP,fls-na.amazon.com,86401,amazon.com,1
+TCP,d1cg7g7aedi1wy.cloudfront.net,3360,"Amazon Technologies, Inc.",1
+TCP,images-na.ssl-images-amazon.com,60,ssl-images-amazon.com,1
+TCP,dxz5jxhrrzigf.cloudfront.net,60,"Amazon Technologies, Inc.",1
+TCP,20c21bbc399f9ef2c91f0365d42531bf5023b70d32dbaf7f53f0b49d5110f72.us-east-1.prod.service.minerva.devices.a2z.com,28800,a2z.com,3
+TCP,d3h5bk8iotgjvw.cloudfront.net,43196,"Amazon Technologies, Inc.",1
+TCP,avs-alexa-3-na.amazon.com,30,amazon.com,1
+TCP,abys3nnfxhbt.na.api.amazonvideo.com,13711,amazonvideo.com,1
+TCP,arl.assets.apl-alexa.com,60,apl-alexa.com,3
+TCP,dp-gw-na.amazon.com,1625,amazon.com,1
+TCP,wl.amazon-dss.com,86401,amazon-dss.com,1
+TCP,api.amazonalexa.com,600,amazonalexa.com,1
+TCP,m.media-amazon.com,60,media-amazon.com,1
+TCP,msh.amazon.com,7201,amazon.com,1
+TCP,prod.amcs-tachyon.com,91,"Amazon Technologies, Inc.",1
+TCP,drive.amazonaws.com,3600,amazonaws.com,1
+TCP,*.us-east-1.amazonaws.com,171813,amazonaws.com,1
+TCP,*.s3.amazonaws.com,3600,amazonaws.com,1
+TCP,prod.amazoncrl.com,43196,amazoncrl.com,1
+TCP,d3p8zr0ffa9t17.cloudfront.net,310,"Amazon Technologies, Inc.",1
+TCP,mas-ext.amazon.com,86401,amazon.com,1
+TCP,todo-ta-g7g.amazon.com,86442,amazon.com,1
+TCP,api.amazon.com,3207,amazon.com,1
+TCP,arl.assets.apl.alexa.amazon.dev,60,"Amazon Technologies, Inc.",1
+TCP,arcus-uswest.amazon.com,9,amazon.com,1
+NTP,ntp-g7g.amazon.com,28800,amazon.com,1
+TCP,dcape-na.amazon.com,151200,amazon.com,1
+NTP,2.android.pool.ntp.org,180000,ntp.org,2

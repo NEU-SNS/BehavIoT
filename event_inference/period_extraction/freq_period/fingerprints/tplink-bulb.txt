@@ -1,0 +1,6 @@
+NTP pool.ntp.org 1826 
+DHCP 22:ef:03:1a:97:b9 246 
+TCP devs.tplinkcloud.com 54 
+TCP n-devs.tplinkcloud.com 54 
+UDP echodot4b 7110 14400 
+UDP echoshow5 7208 

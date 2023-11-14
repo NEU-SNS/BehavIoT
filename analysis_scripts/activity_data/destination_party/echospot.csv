@@ -1,0 +1,3 @@
+protocol,domain,activity,org,party
+TCP,avs-alexa-5-na.amazon.com,android_lan_disturb_off,amazon.com,1
+TCP,unagi-na.amazon.com,local_voice,amazon.com,1

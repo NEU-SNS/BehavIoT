@@ -1,0 +1,13 @@
+DNS neu.edu 3606 
+DHCP 22:ef:03:1a:97:b9 302 
+UDP p2p3.nwsvr2.com 60 
+UDP echoshow5 7118 14400 
+UDP echospot 7297 
+UDP echodot4b 7132 
+UDP p2p4.nwsvr2.com 60 
+TCP echoshow5 7118 14400 
+TCP echospot 7297 
+TCP echodot4b 7132 
+TCP www.ip138.com 86507 172800 
+NTP time.nist.gov 3606 
+SSDP multicast 20 

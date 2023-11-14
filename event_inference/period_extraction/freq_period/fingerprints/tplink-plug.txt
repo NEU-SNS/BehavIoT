@@ -1,0 +1,7 @@
+DNS nb9621.neu.edu 3603 
+DHCP 22:ef:03:1a:97:b9 300 
+UDP echodot4b 7302 14400 
+UDP echoshow5 7207 
+TCP devs.tplinkcloud.com 236 
+TCP n-devs.tplinkcloud.com 236 
+NTP *.pool.ntp.org 3603 

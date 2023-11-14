@@ -1,0 +1,2 @@
+DHCP 22:ef:03:1a:97:b9 287 
+TCP mq.gw.tuyaus.com 30 

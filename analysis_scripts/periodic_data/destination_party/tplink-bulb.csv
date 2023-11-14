@@ -1,0 +1,4 @@
+protocol,domain,period,org,party
+NTP,pool.ntp.org,1826,ntp.org,2
+TCP,devs.tplinkcloud.com,54,REDACTED FOR PRIVACY,1
+TCP,n-devs.tplinkcloud.com,54,REDACTED FOR PRIVACY,1

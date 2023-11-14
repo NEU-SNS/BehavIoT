@@ -1,0 +1,4 @@
+protocol,domain,period,org,party
+DNS,neu.edu,9,neu.edu,2
+TCP,*.dch.dlink.com,61,"Domains By Proxy, LLC",1
+NTP,ntp1.dlink.com,28800,"Domains By Proxy, LLC",1

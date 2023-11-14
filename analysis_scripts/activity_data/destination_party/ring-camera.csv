@@ -1,0 +1,4 @@
+protocol,domain,activity,org,party
+UDP,*.devices.a2z.com,alexa_stop,a2z.com,2
+TCP,*.devices.a2z.com,alexa_stop,a2z.com,2
+TCP,*.compute.amazonaws.com,android_lan_audio,amazonaws.com,2

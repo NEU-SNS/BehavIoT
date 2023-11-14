@@ -1,0 +1,3 @@
+protocol,domain,period,org,party
+DNS,neu.edu,120,neu.edu,2
+TCP,mhc8806us.magichue.net,120,magichue.net,3

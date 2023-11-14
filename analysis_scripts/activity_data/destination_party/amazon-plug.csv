@@ -1,0 +1,3 @@
+protocol,domain,activity,org,party
+TCP,a1piwaqdydua5q.iot.us-east-1.amazonaws.com,android_lan_off,amazonaws.com,1
+TCP,device-metrics-us-2.amazon.com,android_wan_off,amazon.com,1

@@ -1,0 +1,8 @@
+NTP time.nest.com 4200 50400 
+DNS nb9621.neu.edu 1800 
+DNS neu.edu 1800 
+DHCP 22:ef:03:1a:97:b9 1800 
+TCP *.home.nest.com 120 
+TCP weather.nest.com 12 
+TCP logsink.devices.nest.com 1800 
+TCP squeakydoor.nest.com 172800 

@@ -1,0 +1,12 @@
+domain,count,org,party
+api.amazonalexa.com,135,amazonalexa.com,1
+ingestion.us-east-1.prod.arteries.alexa.a2z.com,3,a2z.com,3
+avs-alexa-14-na.amazon.com,2,amazon.com,1
+prod.amcs-tachyon.com,1,"Amazon Technologies, Inc.",1
+todo-ta-g7g.amazon.com,1,amazon.com,1
+ffs-provisioner-config.amazon-dss.com,1,amazon-dss.com,1
+dss-na.amazon.com,1,amazon.com,1
+arcus-uswest.amazon.com,1,amazon.com,1
+device-messaging-na.amazon.com,1,amazon.com,1
+device-artifacts-v2.s3.amazonaws.com,1,amazonaws.com,1
+softwareupdates.amazon.com,1,amazon.com,1

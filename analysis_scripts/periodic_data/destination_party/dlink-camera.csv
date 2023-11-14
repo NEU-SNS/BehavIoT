@@ -1,0 +1,3 @@
+protocol,domain,period,org,party
+DNS,neu.edu,86402,neu.edu,2
+TCP,*.auto.mydlink.com,55,mydlink.com,1

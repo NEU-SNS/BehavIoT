@@ -1,0 +1,15 @@
+domain,count,org,party
+images-na.ssl-images-amazon.com,32,ssl-images-amazon.com,1
+api.amazonalexa.com,10,amazonalexa.com,1
+device-metrics-us.amazon.com,9,amazon.com,1
+m.media-amazon.com,4,media-amazon.com,1
+dp-rsm-prod.amazon.com,4,amazon.com,1
+device-artifacts-v2.s3.amazonaws.com,3,amazonaws.com,1
+avs-alexa-5-na.amazon.com,3,amazon.com,1
+device-messaging-na.amazon.com,3,amazon.com,1
+abk6gs5nzngf.na.api.amazonvideo.com,3,amazonvideo.com,1
+todo-ta-g7g.amazon.com,2,amazon.com,1
+fls-na.amazon.com,2,amazon.com,1
+dcape-na.amazon.com,2,amazon.com,1
+wl.amazon-dss.com,1,amazon-dss.com,1
+spectrum.s3.amazonaws.com,1,amazonaws.com,1

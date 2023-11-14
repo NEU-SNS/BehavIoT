@@ -1,0 +1,6 @@
+DHCP 22:ef:03:1a:97:b9 300 
+TCP cocoa.ring.com 300 
+TCP es.ring.com 7269 
+TCP wu.ring.com 86399 
+DNS neu.edu 86399 187200 
+NTP pool.ntp.org 187200 

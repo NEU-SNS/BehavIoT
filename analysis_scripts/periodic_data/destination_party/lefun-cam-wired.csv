@@ -1,0 +1,3 @@
+protocol,domain,period,org,party
+NTP,krsel6-ntp-001.aaplimg.com,3609,Apple Inc.,3
+TCP,ovca18.vimtag.com,10,vimtag.com,3

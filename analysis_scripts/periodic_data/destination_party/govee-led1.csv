@@ -1,0 +1,5 @@
+protocol,domain,period,org,party
+NTP,pool.ntp.org,3460,ntp.org,2
+DNS,neu.edu,3460,neu.edu,2
+TCP,aqm3wd1qlc3dy.iot.us-east-1.amazonaws.com,60,amazonaws.com,2
+TCP,app.govee.com,28800,govee.com,1

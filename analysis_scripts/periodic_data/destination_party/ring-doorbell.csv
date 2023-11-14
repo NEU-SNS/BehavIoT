@@ -1,0 +1,4 @@
+protocol,domain,period,org,party
+DNS,neu.edu,1236,neu.edu,2
+TCP,wu.ring.com,901,ring.com,1
+TCP,rss-dpd-service.ring.com,300,ring.com,1

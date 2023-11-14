@@ -1,0 +1,51 @@
+amazon-plug Amazon AWS Alexa
+aqara-hub Aqara Xiaomi
+brewer Behmor
+bulb1 Jinvoo Tuya
+dishwasher LG
+dlink-camera Dlink d-link
+dlink-mov Dlink d-link
+echodot Amazon AWS Alexa 
+echodot3a Amazon AWS Alexa
+echodot3c Amazon AWS Alexa
+echodot4b Amazon AWS Alexa
+echoflex1 Amazon AWS Alexa
+echoplus Amazon AWS Alexa
+echoshow5 Amazon AWS Alexa
+echospot Amazon AWS Alexa
+fridge Samsung smartthing
+google-home-mini Google gstatic nest
+google-nest-mini1 Google gstatic nest
+gosund-bulb1 gosund tuya
+govee-led1 govee 
+homepod Apple homepod
+homepod-mini1 Apple homepod
+icsee-doorbell Apple homepod
+ikea-hub ikea
+ikettle Smarter
+keyco-air keyco
+lefun-cam-wired Lefun
+magichome-strip Magic Tuya
+meross-dooropener Meross
+microseven-camera Microseven
+microwave GE General Electric
+nest-tstat Nest Google gstatic nest
+philips-bulb philips
+ring-camera Ring Amazon AWS Alexa
+ring-chime1 Ring Amazon AWS Alexa
+ring-doorbell Ring Amazon AWS Alexa
+smartlife-bulb smartlife Tuya
+smartthings-hub smartthing Samsung
+sousvide Anova
+switchbot-hub switchbot
+t-philips-hub philips
+t-wemo-plug wemo Belkin
+thermopro-sensor thermopro tuya
+tplink-bulb tplink tp-link TP-Link
+tplink-plug tplink tp-link TP-Link
+tuya-camera tuya
+ubell-doorbell ubell 
+wansview-cam-wired wansview
+wink-hub2 wink
+wyze-cam wyze
+yi-camera yi 

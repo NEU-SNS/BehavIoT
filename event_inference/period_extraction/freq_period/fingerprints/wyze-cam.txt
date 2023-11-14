@@ -1,0 +1,10 @@
+DNS dns.google 7202 
+DHCP 22:ef:03:1a:97:b9 300 
+UDP esx1.fazey.org 40 
+UDP *.ip.linodeusercontent.com 40 
+UDP 104.149.140.74 40 
+TCP aws-iot.wyzecam.com 62 
+TCP *.us-west-2.amazonaws.com 10 
+TCP wyze-general-api.wyzecam.com 43203 86400 
+NTP clock.fmt.he.net 7199 
+TCP device-api.wyzecam.com 21600 

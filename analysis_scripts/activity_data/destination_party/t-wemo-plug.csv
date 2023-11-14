@@ -1,0 +1,3 @@
+protocol,domain,activity,org,party
+TCP,api.xbcs.net,alexa_off,"Domains By Proxy, LLC",1
+TCP,*.compute.amazonaws.com,alexa_off,amazonaws.com,2

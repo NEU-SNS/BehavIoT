@@ -1,0 +1,28 @@
+MDNS multicast 79458 
+DNS dns.google 64 
+DHCP 1e:f2:0c:cc:ed:1c 300 
+UDP fcm.googleapis.com 2170 
+UDP google-nest-mini2 30 273600 
+UDP google-home-mini3 64 
+UDP 192.168.12.125 64 
+UDP play.googleapis.com 600 
+UDP clients4.google.com 300 
+UDP www.gstatic.com 79455 
+UDP clients3.google.com 2163 
+TCP google-nest-mini2 11796 
+TCP google-home-mini3 7924 
+TCP clients3.google.com 88618 
+TCP connectivitycheck.gstatic.com 60 
+TCP lycraservice-pa.googleapis.com 79458 
+TCP www.youtube.com 90329 
+TCP fcm.googleapis.com 90637 
+TCP mtalk.google.com 45 
+TCP www.googleapis.com 90286 
+TCP device-provisioning.googleapis.com 14 
+TCP www.gstatic.com 45 
+TCP ajax.googleapis.com 45 
+TCP www.google.com 88503 
+TCP home-devices.googleapis.com 79503 
+TCP play.googleapis.com 43187 
+TCP safesearch.googleapis.com 90329 180000 
+UDP www.googleapis.com 28800 

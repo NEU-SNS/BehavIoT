@@ -1,0 +1,19 @@
+DNS neu.edu 301 
+DHCP ca:62:75:3f:c8:9a 301 
+UDP ff:ff:ff:ff:ff:ff 7416 
+UDP multicast 7416 
+TCP fireoscaptiveportal.com 301 
+TCP acsechocaptiveportal.com 301 
+TCP ffs-provisioner-config.amazon-dss.com 90682 
+TCP msh.amazon.com 41177 
+TCP prod.amcs-tachyon.com 91 
+TCP api.amazon.com 3500 
+TCP d3p8zr0ffa9t17.cloudfront.net 310 
+TCP avs-alexa-14-na.amazon.com 30 
+TCP device-messaging-na.amazon.com 86400 172800 
+TCP device-metrics-us-2.amazon.com 2460 
+TCP arcus-uswest.amazon.com 86400 172800 
+NTP ntp-g7g.amazon.com 301 
+SSDP multicast 7119 
+TCP softwareupdates.amazon.com 180000 
+TCP todo-ta-g7g.amazon.com 165600 

@@ -1,0 +1,24 @@
+domain,count,org,party
+kt-prod.apple.com,10,Apple Inc.,1
+guzzoni-apple-com.v.aaplimg.com;guzzoni.apple.com,3,Apple Inc.,1
+a1806.dscb.akamai.net;play.itunes.apple.com,3,Apple Inc.,1
+e6987.dsce9.akamaiedge.net;gspe35-ssl.ls.apple.com,3,Apple Inc.,1
+ocsp.digicert.com,2,digicert.com,2
+updates.cdn-apple.com,2,Apple Inc.,1
+kt-prod.apple.com;kt-prod.ess-apple.com.akadns.net,2,akadns.net,2
+pancake.apple.com,2,Apple Inc.,1
+guzzoni.apple.com,2,Apple Inc.,1
+metrics.icloud.com,1,Apple Inc.,1
+pancake.apple.com;clientflow.g.aaplimg.com,1,Apple Inc.,1
+updates.cdn-apple.com;updates.g.aaplimg.com,1,Apple Inc.,1
+setup.icloud.com;setup.fe.apple-dns.net,1,Apple Inc.,1
+setup.icloud.com,1,Apple Inc.,1
+metrics.icloud.com;me.apple-dns.net,1,Apple Inc.,1
+mesu.apple.com;mesu-cdn.origin-apple.com.akadns.net;e1329.g.akamaiedge.net,1,akamaiedge.net,2
+pancake.apple.com;ocsp2.g.aaplimg.com,1,Apple Inc.,1
+pancake.apple.com;clientflow.apple.com;ocsp2.apple.com,1,Apple Inc.,1
+a1864.gi3.akamai.net;pds-init.ess.apple.com,1,Apple Inc.,1
+pds-prod.v.aaplimg.com;pds.ess.apple.com,1,Apple Inc.,1
+iphonesubmissions.apple.com,1,Apple Inc.,1
+swallow-apple-com.v.aaplimg.com;swallow.apple.com,1,Apple Inc.,1
+pds-init.ess.apple.com,1,Apple Inc.,1

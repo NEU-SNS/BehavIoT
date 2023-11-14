@@ -1,0 +1,4 @@
+protocol,domain,period,org,party
+DNS,neu.edu,3739,neu.edu,2
+TCP,secure.brillion.geappliances.com,3739,General Electric Company,1
+TCP,xmpp14.wca.geappliances.com,601,General Electric Company,1

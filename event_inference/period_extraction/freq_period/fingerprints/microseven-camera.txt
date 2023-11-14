@@ -1,0 +1,4 @@
+NTP time.windows.com 3601 
+DNS neu.edu 3601 
+TCP pnp.microseven.com 30 
+DHCP 22:ef:03:1a:97:b9 303 

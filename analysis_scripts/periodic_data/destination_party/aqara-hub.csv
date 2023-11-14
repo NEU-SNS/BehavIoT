@@ -1,0 +1,2 @@
+protocol,domain,period,org,party
+TCP,aiot-coap.aqara.cn,120,aqara.cn,1

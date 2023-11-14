@@ -1,0 +1,20 @@
+protocol,domain,period,org,party
+DNS,nb9621.neu.edu,1,neu.edu,2
+DNS,neu.edu,290,neu.edu,2
+UDP,ff:ff:ff:ff:ff:ff,7302,ff:ff:ff:ff:ff:ff,3
+TCP,fireoscaptiveportal.com,290,fireoscaptiveportal.com,3
+TCP,alexa.na.gateway.devices.a2z.com,60,a2z.com,3
+TCP,device-messaging-na.amazon.com,86400,amazon.com,1
+TCP,api.amazonalexa.com,901,amazonalexa.com,1
+TCP,acsechocaptiveportal.com,290,acsechocaptiveportal.com,3
+TCP,msh.amazon.com,14593,amazon.com,1
+TCP,prod.amcs-tachyon.com,91,"Amazon Technologies, Inc.",1
+TCP,d3p8zr0ffa9t17.cloudfront.net,310,"Amazon Technologies, Inc.",1
+TCP,device-metrics-us-2.amazon.com,2460,amazon.com,1
+TCP,api.amazon.com,3500,amazon.com,1
+TCP,arcus-uswest.amazon.com,86400,amazon.com,1
+NTP,ntp-g7g.amazon.com,290,amazon.com,1
+TCP,ffs-provisioner-config.amazon-dss.com,295200,amazon-dss.com,1
+TCP,softwareupdates.amazon.com,180000,amazon.com,1
+TCP,*.s3.amazonaws.com,57600,amazonaws.com,1
+NTP,0.north-america.pool.ntp.org,79200,ntp.org,2

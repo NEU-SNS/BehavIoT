@@ -1,0 +1,29 @@
+domain,count,org,party
+avs-alexa-3-na.amazon.com,152,amazon.com,1
+images-na.ssl-images-amazon.com,39,ssl-images-amazon.com,1
+d1cg7g7aedi1wy.cloudfront.net,29,"Amazon Technologies, Inc.",1
+dxz5jxhrrzigf.cloudfront.net,27,"Amazon Technologies, Inc.",1
+device-metrics-us.amazon.com,25,amazon.com,1
+unagi-na.amazon.com,24,amazon.com,1
+images-na.ssl-images-amazon.com;m.media-amazon.com,22,media-amazon.com,1
+abys3nnfxhbt.na.api.amazonvideo.com,17,amazonvideo.com,1
+m.media-amazon.com,17,media-amazon.com,1
+dp-gw-na.amazon.com,5,amazon.com,1
+api.amazon.com,5,amazon.com,1
+mas-sdk.amazon.com,4,amazon.com,1
+api.us-east-1.aiv-delivery.net,4,aiv-delivery.net,3
+mmhome-static-content-prod.s3.amazonaws.com,4,amazonaws.com,1
+arl.assets.apl-alexa.com,4,apl-alexa.com,1
+mas-ext.amazon.com,3,amazon.com,1
+device-messaging-na.amazon.com,3,amazon.com,1
+arcus-uswest.amazon.com,3,amazon.com,1
+api.amazonalexa.com,3,amazonalexa.com,1
+todo-ta-g7g.amazon.com,2,amazon.com,1
+fls-na.amazon.com,2,amazon.com,1
+kinesis.us-east-1.amazonaws.com,2,amazonaws.com,1
+arl.assets.apl.alexa.amazon.dev,2,"Amazon Technologies, Inc.",1
+softwareupdates.amazon.com,2,amazon.com,1
+wl.amazon-dss.com,2,amazon-dss.com,1
+drive.amazonaws.com,1,amazonaws.com,1
+device-artifacts-v2.s3.amazonaws.com,1,amazonaws.com,1
+msh.amazon.com,1,amazon.com,1

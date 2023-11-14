@@ -1,0 +1,5 @@
+NTP *.pool.ntp.org 1819 
+DNS dns.google 1819 
+TCP fw-ch.ring.com 87019 172800 
+TCP es.ring.com 184 
+TCP ch.ring.com 31 

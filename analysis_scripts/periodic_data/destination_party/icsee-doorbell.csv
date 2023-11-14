@@ -1,0 +1,10 @@
+protocol,domain,period,org,party
+DNS,dns.google,599,dns.google,3
+DNS,neu.edu,602,neu.edu,2
+UDP,*.compute.hwclouds-dns.com,600,hwclouds-dns.com,3
+UDP,112.124.0.188,600,0.188,3
+UDP,*.compute.amazonaws.com,601,"Amazon.com, Inc.",2
+TCP,caps.xmcsrv.net,600,xmcsrv.net,2
+TCP,pub-cfg.secu100.net,600,secu100.net,2
+TCP,*.compute.amazonaws.com,119,"Amazon.com, Inc.",2
+NTP,time.windows.com,600,windows.com,3

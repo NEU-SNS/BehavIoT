@@ -1,0 +1,3 @@
+protocol,domain,activity,org,party
+UDP,47.89.254.70,android_wan_audio,254.70,2
+TCP,usportal.ubianet.com,ring,ubianet.com,2

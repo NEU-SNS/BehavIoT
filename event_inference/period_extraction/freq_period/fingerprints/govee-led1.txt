@@ -1,0 +1,5 @@
+NTP pool.ntp.org 3460 
+DNS neu.edu 3460 
+DHCP 22:ef:03:1a:97:b9 288 
+TCP aqm3wd1qlc3dy.iot.us-east-1.amazonaws.com 60 
+TCP app.govee.com 28800 

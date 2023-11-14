@@ -1,0 +1,25 @@
+NTP 2.android.pool.ntp.org 86400 172800 
+NTP ntp-g7g.amazon.com 310 
+MDNS multicast 289 
+DHCP ca:62:75:3f:c8:9a 289 
+TCP device-messaging-na.amazon.com 7232 187200 
+TCP prod.amcs-tachyon.com 91 
+TCP avs-alexa-4-na.amazon.com 600 
+TCP api.amazon.com 3600 
+TCP device-artifacts-v2.s3.amazonaws.com 20863 
+TCP arcus-uswest.amazon.com 86432 172800 
+TCP dss-na.amazon.com 21655 43200 
+TCP d3h5bk8iotgjvw.cloudfront.net 43132 86400 
+TCP prod.amazoncrl.com 43132 86400 
+TCP fos5echocaptiveportal.com 310 
+TCP wl.amazon-dss.com 86452 172800 
+TCP discovery.meethue.com 3754 
+TCP d3p8zr0ffa9t17.cloudfront.net 310 
+TCP dp-rsm-prod.amazon.com 84195 172800 
+TCP device-metrics-us.amazon.com 302 57600 
+TCP api.amazonalexa.com 240 
+TCP dxz5jxhrrzigf.cloudfront.net 86400 172800 
+DNS neu.edu 310 
+SSDP multicast 7094 
+TCP todo-ta-g7g.amazon.com 172800 
+TCP updates.amazon.com 180000 

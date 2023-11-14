@@ -1,0 +1,6 @@
+protocol,domain,period,org,party
+NTP,time01.leardev.de,86400,leardev.de,3
+DNS,nb9621.neu.edu,86400,neu.edu,2
+DNS,neu.edu,86400,neu.edu,2
+TCP,a1nvlh0fc0asuq.iot.us-east-1.amazonaws.com,30,"Amazon.com, Inc.",2
+TCP,fw.ota.homesmart.ikea.net,86400,Inter IKEA Systems B.V.,1

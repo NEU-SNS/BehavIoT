@@ -1,0 +1,23 @@
+NTP pool.ntp.org 1024 14400 
+MDNS multicast 49 
+DHCP 22:ef:03:1a:97:b9 300 
+TCP osb-v2.samsungqbe.com 86403 172800 
+TCP *.api.smartthings.com 61 
+TCP api.tizenservice.com 86400 21600 
+TCP osb-secure.samsungqbe.com 86403 172800 
+TCP log.samsunghrm.com 10 43200 
+TCP gpm.samsungqbe.com 86403 172800 
+TCP samsung-image-cdn.whisk.com 72746 
+TCP info.cspserver.net 21601 43200 
+TCP us-auth2.samsungosp.com 86406 172800 
+TCP *.compute.amazonaws.com 40 
+TCP bixby-client.aibixby.com 86402 172800 
+TCP ocfconnect-shard-na03-useast2.samsungiotcloud.com 50 
+TCP graph-custom.whisk.com 86012 180000 
+TCP spectrum.s3.amazonaws.com 30 
+TCP uimetadata.samsungiotcloud.com 86406 172800 
+DNS dns.google 30 
+DNS nb9621.neu.edu 30 
+DNS neu.edu 30 
+TCP *.mgmt.aibixby.com 158400 
+TCP gld.push.samsungosp.com 158400 

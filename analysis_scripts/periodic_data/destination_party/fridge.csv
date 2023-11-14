@@ -1,0 +1,22 @@
+protocol,domain,period,org,party
+NTP,pool.ntp.org,1024,ntp.org,2
+TCP,osb-v2.samsungqbe.com,86403,"Samsung Electronics CO., Ltd",1
+TCP,*.api.smartthings.com,61,smartthings.com,1
+TCP,api.tizenservice.com,86400,Identity Protection Service,1
+TCP,osb-secure.samsungqbe.com,86403,samsungqbe.com,1
+TCP,log.samsunghrm.com,10,samsunghrm.com,1
+TCP,gpm.samsungqbe.com,86403,samsungqbe.com,1
+TCP,samsung-image-cdn.whisk.com,72746,Foodient Ltd.,3
+TCP,info.cspserver.net,21601,cspserver.net,3
+TCP,us-auth2.samsungosp.com,86406,samsungosp.com,1
+TCP,*.compute.amazonaws.com,40,amazonaws.com,2
+TCP,bixby-client.aibixby.com,86402,Identity Protection Service,3
+TCP,ocfconnect-shard-na03-useast2.samsungiotcloud.com,50,samsungiotcloud.com,1
+TCP,graph-custom.whisk.com,86012,Foodient Ltd.,3
+TCP,spectrum.s3.amazonaws.com,30,amazonaws.com,2
+TCP,uimetadata.samsungiotcloud.com,86406,samsungiotcloud.com,1
+DNS,dns.google,30,dns.google,3
+DNS,nb9621.neu.edu,30,neu.edu,2
+DNS,neu.edu,30,neu.edu,2
+TCP,*.mgmt.aibixby.com,158400,Identity Protection Service,3
+TCP,gld.push.samsungosp.com,158400,samsungosp.com,1

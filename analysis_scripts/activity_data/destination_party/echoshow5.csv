@@ -1,0 +1,5 @@
+protocol,domain,activity,org,party
+TCP,avs-alexa-3-na.amazon.com,android_lan_disturb_off,amazon.com,1
+TCP,prod.amcs-tachyon.com,android_lan_disturb_on,"Amazon Technologies, Inc.",1
+TCP,unagi-na.amazon.com,local_voice,amazon.com,1
+TCP,tinytts.amazon.com,local_voice,amazon.com,1

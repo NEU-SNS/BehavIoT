@@ -1,0 +1,5 @@
+MDNS multicast 34003 
+DNS neu.edu 9 28800 
+DHCP 22:ef:03:1a:97:b9 300 
+TCP *.dch.dlink.com 61 
+NTP ntp1.dlink.com 28800 

@@ -1,0 +1,4 @@
+protocol,domain,period,org,party
+NTP,time.windows.com,3601,windows.com,3
+DNS,neu.edu,3601,neu.edu,2
+TCP,pnp.microseven.com,30,microseven.com,1

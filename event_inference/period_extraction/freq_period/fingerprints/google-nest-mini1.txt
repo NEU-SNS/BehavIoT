@@ -1,0 +1,26 @@
+DNS dns.google 63 
+DNS neu.edu 8210 
+DHCP ca:62:75:3f:c8:9a 301 
+UDP fcm.googleapis.com 2110 28800 
+UDP www.googleapis.com 14400 
+UDP google-home-mini2 861 
+UDP tools.google.com 1838 
+UDP play.googleapis.com 600 
+UDP clients4.google.com 300 
+UDP clients3.google.com 2116 
+TCP tools.google.com 16200 
+TCP android.clients.google.com 46 
+TCP clients3.google.com 82985 
+TCP connectivitycheck.gstatic.com 60 
+TCP clientservices.googleapis.com 46 
+TCP fcm.googleapis.com 46 
+TCP mtalk.google.com 46 
+TCP www.googleapis.com 46 
+TCP google-home-mini2 2161 
+TCP device-provisioning.googleapis.com 46 
+TCP clients4.google.com 46 
+TCP www.gstatic.com 25812 
+TCP www.google.com 46 165600 
+TCP home-devices.googleapis.com 83009 165600 
+TCP play.googleapis.com 46 
+TCP geller-pa.googleapis.com 21601 

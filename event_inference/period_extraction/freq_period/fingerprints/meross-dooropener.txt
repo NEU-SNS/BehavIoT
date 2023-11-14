@@ -1,0 +1,5 @@
+NTP *.pool.ntp.org 3600 
+NTP time1.aliyun.com 3601 7200 
+DNS neu.edu 3600 
+DHCP 22:ef:03:1a:97:b9 300 
+TCP mqtt-us.meross.com 30 

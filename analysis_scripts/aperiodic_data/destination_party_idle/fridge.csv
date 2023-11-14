@@ -1,0 +1,16 @@
+domain,count,org,party
+api.weather.com,23,"TWC Product and Technology, LLC",3
+samsung-image-cdn.whisk.com,8,Foodient Ltd.,3
+kics-epa.samsungepa.com,7,Identity Protection Service,1
+us-fhapi.cspserver.net,6,cspserver.net,3
+ocfconnect-shard-na03-useast2.samsungiotcloud.com,5,samsungiotcloud.com,1
+uimetadata.samsungiotcloud.com,3,samsungiotcloud.com,1
+log.samsunghrm.com,2,samsunghrm.com,1
+*.compute.amazonaws.com,2,"Amazon.com, Inc.",2
+gld.push.samsungosp.com,1,samsungosp.com,1
+osb-secure.samsungqbe.com,1,samsungqbe.com,1
+gpm.samsungqbe.com,1,"Samsung Electronics CO., Ltd",1
+ash-use2.mgmt.aibixby.com,1,Identity Protection Service,3
+bixby-client.aibixby.com,1,Identity Protection Service,3
+api.tizenservice.com,1,Identity Protection Service,1
+provisioning-use2.mgmt.aibixby.com,1,Identity Protection Service,3

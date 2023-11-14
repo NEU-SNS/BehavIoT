@@ -1,0 +1,6 @@
+protocol,domain,period,org,party
+TCP,cocoa.ring.com,300,ring.com,1
+TCP,es.ring.com,7269,ring.com,1
+TCP,wu.ring.com,86399,ring.com,1
+DNS,neu.edu,86399,neu.edu,2
+NTP,pool.ntp.org,187200,ntp.org,2
