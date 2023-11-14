@@ -67,7 +67,7 @@ def protocol_transform(test_protocols):
 
 
 def read_mac_address():
-    mac_file = '../../devices.txt'
+    mac_file = '../devices.txt'
     mac_dic = {}
     with open(mac_file, 'r') as f:
         lines = f.readlines()

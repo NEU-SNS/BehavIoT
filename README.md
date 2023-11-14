@@ -1,5 +1,5 @@
 # Behaviot
-This repo ontains the analysis code for our IMC23 paper. We are updating it to enhance the code's usability.
+This repo contains the analysis code for our IMC23 paper. We are updating it to enhance the code's usability.
 
 ```
 @inproceedings{hu-imc23,
@@ -20,7 +20,7 @@ Modeling system behavior: building probabilistic finite state machine
 Characterization: Event destination and non-essential destination analysis
 
 # Testbed
-The [device file](device_behaviot.txt) lists the smart home devices and their MAC address used in this paper.
+The [device file](devices.txt) lists the smart home devices and their MAC address used in this paper.
 For our testbed setup and software for traffic capture, please check out our [IMC19 paper](https://moniotrlab.khoury.northeastern.edu/publications/imc19/).
 
 # Datasets
