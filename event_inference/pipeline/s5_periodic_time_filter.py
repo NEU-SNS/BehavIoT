@@ -11,23 +11,14 @@ import time
 from multiprocessing import Pool
 import Constants as c
 
-
 warnings.simplefilter("ignore", category=DeprecationWarning)
-
+warnings.simplefilter("ignore", category=FutureWarning)
 
 
 num_pools = 1
-
-cols_feat = [ "meanBytes", "minBytes", "maxBytes", "medAbsDev",
-             "skewLength", "kurtosisLength", "meanTBP", "varTBP", "medianTBP", "kurtosisTBP",
-             "skewTBP", "network_total", "network_in", "network_out", "network_external", "network_local",
-            "network_in_local", "network_out_local", "meanBytes_out_external",
-            "meanBytes_in_external", "meanBytes_out_local", "meanBytes_in_local", "device", "state", "event", "start_time", "protocol", "hosts"]
-
-
+cols_feat = utils.get_features()
 model_list = []
 root_output = ''
-dir_tsne_plots = ''
 root_feature = ''
 root_model = ''
 dbscan_eps = 1
@@ -38,7 +29,7 @@ def print_usage(is_error):
 
 
 def main():
-    global  root_output, dir_tsne_plots, model_list , root_feature, root_model, dbscan_eps
+    global  root_output, model_list , root_feature, root_model, dbscan_eps
 
     # Parse Arguments
     parser = argparse.ArgumentParser(usage=c.PERIODIC_MOD_USAGE, add_help=False)
@@ -98,7 +89,7 @@ def main():
 
 
 def train_models():
-    global root_feature, root_model, root_output, dir_tsne_plots
+    global root_feature, root_model, root_output
     """
     Scan feature folder for each device
     """
@@ -134,7 +125,7 @@ def train_models():
     with open(os.path.join(root_model,'results.txt'),'a+') as f:
         f.write('\nTotal: %d, %d\n' % (total_left, total_flow))
     t1 = time.time()
-    print('Time to train all models for %s devices using %s threads: %.2f' % (len(lparas),num_pools, (t1 - t0)))
+    print('Time for %s devices using %s threads: %.2f' % (len(lparas),num_pools, (t1 - t0)))
     # p.map(target=eval_individual_device, args=(lfiles, ldnames))
 
 
@@ -143,11 +134,7 @@ def eid_wrapper(a):
 
 
 def eval_individual_device(train_data_file, dname, random_state, specified_models=None):
-    global root_feature, root_model, root_output, dir_tsne_plots, dbscan_eps
-
-    warnings.simplefilter("ignore", category=DeprecationWarning)
-    warnings.simplefilter("ignore", category=FutureWarning)
-
+    global root_feature, root_model, root_output, dbscan_eps
 
     model_alg = 'filter'
     """
@@ -322,7 +309,7 @@ def eval_individual_device(train_data_file, dname, random_state, specified_model
             
             anomaly_true = False
             # Good with period 
-            # 1. the time diff is 2s within the period
+            # 1. the period is N seconds within the expected period, N=2
             if ((abs(float(test_timestamp_part[i] - test_timestamp_part[i-1] - cur_period)) <= 1) or 
                         (abs(float(test_timestamp_part[i] - test_timestamp_part[i-1] - cur_period)) <= (0.05 * cur_period))):
                 tmp_diff = float(test_timestamp_part[i] - test_timestamp_part[i-1] - cur_period)
@@ -353,11 +340,10 @@ def eval_individual_device(train_data_file, dname, random_state, specified_model
         
         count_left = 0
         filter_list = []
-        try:
-            if len(y_new) < 1:
-                continue
-        except:
+
+        if len(y_new) < 1:
             continue
+
 
         for i in range(len(y_new)):
 
@@ -368,7 +354,6 @@ def eval_individual_device(train_data_file, dname, random_state, specified_model
                 filter_list.append(False)   # periodic traffic
 
         if len(filter_list) != len(y_new):
-            print('ER')
             exit(1)
         count_tmp = 0
         for i in range(len(filter_test)):
@@ -380,18 +365,15 @@ def eval_individual_device(train_data_file, dname, random_state, specified_model
                     filter_test[i] = False
                 count_tmp += 1
             else:
-                print('ER')
                 exit(1)
         
         if len(filter_test) != len(test_feature):
-            print('ER')
             exit(1)
 
 
         test_feature = test_feature[filter_test]
         test_hosts = test_hosts[filter_test]
         test_protocols = test_protocols[filter_test]
-        # events = events[filter_test]
         test_timestamp = test_timestamp[filter_test]
         test_data_numpy = test_data_numpy[filter_test]
 

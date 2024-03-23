@@ -1,4 +1,4 @@
-# Behaviot
+# BehavIoT
 This repo contains the analysis code for our IMC23 paper. We are updating it to enhance the code's usability.
 
 ```
@@ -24,4 +24,4 @@ The [device file](devices.txt) lists the smart home devices and their MAC addres
 For our testbed setup and software for traffic capture, please check out our [IMC19 paper](https://moniotrlab.khoury.northeastern.edu/publications/imc19/).
 
 # Datasets
-[Request here](https://moniotrlab.khoury.northeastern.edu/behaviot-imc23/)
+[You may request our public datasets here.](https://moniotrlab.khoury.northeastern.edu/behaviot-imc23/)

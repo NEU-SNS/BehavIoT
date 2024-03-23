@@ -24,8 +24,6 @@ root_model = ''
 mac_dic = {}
 
 
-short_window_device = ['tplink-plug', 't-wemo-plug', 'amazon-plug', 'tplink-bulb', 'smartlife-bulb',
-'bulb1', 'magichome-strip', 'gosund-bulb1', 'govee-led1', 'meross-dooropener', 'nest-tstat', 'switchbot-hub']
 long_window_device = ['wyze-cam','ikettle', 'echospot', 'dlink-camera', 'ring-camera', 'ring-doorbell']
 time_window_dic = {}
 
@@ -265,8 +263,6 @@ def eval_individual_device(input_data_file, dname, random_state):
     elif dname in long_window_device:
         time_window_length = 35
     else:
-        # print(dname)
-        # exit(1)
         time_window_length = 5
     
     for i in range(len(predict_labels_agg)):
@@ -332,10 +328,10 @@ def eval_individual_device(input_data_file, dname, random_state):
 
     print('-----------------------logs-------------------------')
 
-
-    if not os.path.exists('%s/unctrl' % (root_model)):
-        os.mkdir('%s/unctrl' % (root_model))
-    with open('%s/unctrl/%s.txt' % (root_model, dname), 'w+') as off:
+    dataset = root_feature.split('/')[1].split('-')[0]
+    if not os.path.exists('%s/%s' % (root_model, dataset)):
+        os.mkdir('%s/%s' % (root_model, dataset))
+    with open('%s/%s/%s.txt' % (root_model, dataset, dname), 'w+') as off:
         for i in range(len(test_timestamp)):
             off.write("%s :%s\n" % (datetime.fromtimestamp(test_timestamp[i]
                 ).strftime("%m/%d/%Y, %H:%M:%S"), output_label_list[i]))
@@ -345,7 +341,7 @@ def eval_individual_device(input_data_file, dname, random_state):
 
     if not os.path.exists(output_log_file):
         os.mkdir(output_log_file)
-    with open('%s/unctrl-%s.txt' % (output_log_file, dname), 'w+') as off:
+    with open('%s/%s-%s.txt' % (output_log_file, dataset, dname), 'w+') as off:
         cur_time_window_id = 0
         for i in range(len(output_label_list)):
             if time_window_id_list[i] != cur_time_window_id:

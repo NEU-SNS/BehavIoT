@@ -1,0 +1,1 @@
+This folder includes IP-host mappings extracted from DNS or TLS traffic. To extract mapping files, execute the `s1_decode_dns_tls.py` script. For more details, see [usage instructions](../usage.md). 

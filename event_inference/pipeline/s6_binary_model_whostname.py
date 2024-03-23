@@ -14,29 +14,24 @@ import time
 from multiprocessing import Pool
 import Constants as c
 
-
 warnings.simplefilter("ignore", category=DeprecationWarning)
 warnings.simplefilter("ignore", category=FutureWarning)
 warnings.simplefilter("ignore", category=UserWarning)
 
 num_pools = 1
-
-
 default_models = ['rf']
 model_list = ['rf']
 root_output = ''
 root_feature = ''
 root_model = ''
 mac_dic = {}
-
-
-
+"""
+Run s6_activity_fingerprint.py before this script OR run s6_biniary_model.py instead. See usage.md for details. 
+"""
 # is_error is either 0 or 1
 def print_usage(is_error):
     print(c.PREDICT_MOD_USAGE, file=sys.stderr) if is_error else print(c.PREDICT_MOD_USAGE)
     exit(is_error)
-
-
 
 def main():
     global  root_output, model_list , root_feature, root_model
@@ -103,11 +98,10 @@ def main():
             if not os.path.exists(model_dir):
                 os.mkdir(model_dir)
 
-    train_models()
+    train_models(root_feature, root_model, root_output)
 
 
-def train_models():
-    # global root_feature, root_model, root_output
+def train_models(root_feature, root_model, root_output):
     """
     Scan feature folder for each device
     """
@@ -292,8 +286,7 @@ def eval_individual_device(train_data_file, dname, random_state):
         activity_fingerprint_dic[activity] = tmp_activity_list
 
     print(dname, activity_fingerprint_dic, activity_fingerprint_merge_count)
-    # return 0 
-    # return 
+
     """
     Labels encoding 
     """
@@ -393,14 +386,12 @@ def eval_individual_device(train_data_file, dname, random_state):
                 bg_undersampling = len(cur_X_train_tmp)
             else:
                 bg_undersampling = len(bg_labels)
-            # bg_undersampling = round(len(bg_labels)*0.005)
             bg_undersampling = 30 if bg_undersampling < 100 else bg_undersampling
             random.shuffle(bg_feature)
 
             # Concatenate training set with idle set. 1 stands for positive label, 0 stands for other activity labels and idle traffic
             cur_y_train_bin = np.concatenate((cur_y_train_bin,bg_labels[:bg_undersampling]),axis=0)
             cur_X_train_tmp = np.concatenate((cur_X_train_tmp,bg_feature[:bg_undersampling]),axis=0)
-            # cur_train_host_protocol = np.concatenate((train_host_protocol,bg_labels[:bg_undersampling]),axis=0)
 
             cur_y_train_bin = cur_y_train_bin.tolist()
             y_test_bin_1d = y_test_tmp.tolist()
@@ -496,13 +487,11 @@ def eval_individual_device(train_data_file, dname, random_state):
         cur_host_protocol = test_host_protocol[i]
         if test_events[i] in event_dict:
             event_dict_log[test_events[i]].append((cur_label, cur_proba,  cur_host_protocol))
-            # if cur_proba > event_dict[test_events[i]][0][1]:
-            #     event_dict[test_events[i]] = [(cur_label, cur_proba), y_test[i]]
+
         else:
             event_dict[test_events[i]] = [0, y_test[i]]
             event_dict_log[test_events[i]] = [(cur_label, cur_proba,  cur_host_protocol)]
 
-    # print(len(event_dict_log.keys()), event_dict_log)
     for k, v in event_dict_log.items():
         # v: list of (label, proba, timestamp)
         tmp_label_list = []
@@ -539,7 +528,6 @@ def eval_individual_device(train_data_file, dname, random_state):
             event_dict[k] = [predicted_label, event_dict[k][-1]]
         else:
             event_dict[k] = ['000', event_dict[k][-1]]
-        # cur_label = max(set(tmp_list), key = tmp_list.count)
         event_dict[k] = [predicted_label, event_dict[k][-1]]    # predicted label, true label
     
 
@@ -587,9 +575,9 @@ def eval_individual_device(train_data_file, dname, random_state):
     """
     with open(output_file,'a+') as of:
         if len(idle_FP_test)!=0:
-            of.write('Idle traffic: Overall FP rate: %.2f, # of FP: %d , %d\n' % (len(idle_fp_set)/len(idle_FP_test), len(idle_fp_set), len(idle_FP_test))) # for idle
+            of.write('Skip this if not idle dataset: idle traffic overall FP rate: %.2f, # of FP: %d , %d\n' % (len(idle_fp_set)/len(idle_FP_test), len(idle_fp_set), len(idle_FP_test))) # for idle
         else:
-            of.write('Idle traffic: Overall FP rate: 0, # of FP: 0 , 0\n' )
+            of.write('Skip this if not idle dataset: idle traffic overall FP rate: 0, # of FP: 0 , 0\n' )
 
     '''
     Logs

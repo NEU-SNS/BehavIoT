@@ -4,9 +4,10 @@
 ```
 Ivan Beschastnikh, Yuriy Brun, Sigurd Schneider, Michael Sloan, and Michael D Ernst. 2011. Leveraging existing instrumentation to automatically infer invariantconstrained models. In Proceedings of the 19th ACM SIGSOFT symposium and the 13th European conference on Foundations of software engineering. 267–277.
 ```
-
-For visualization: `pip install networkx pydot`
-
+The scripts are tested on Linux version 5.4.0-169-generic (Ubuntu 9.4.0-1ubuntu1~20.04.2) with python 3.7.6.
+```
+pip install networkx pydot numpy scipy matplotlib
+```
 ## Event traces
 - input: traces/log_routines_xx/
 - log processor: convertor_new.py: generate log files for Synoptic - uncontrolled dataset

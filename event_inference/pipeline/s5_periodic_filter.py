@@ -9,24 +9,15 @@ import pandas as pd
 import scipy as sp
 from sklearn.cluster import DBSCAN
 import time
-
 import Constants as c
-
-
 warnings.simplefilter("ignore", category=DeprecationWarning)
 
-
 num_pools = 1
-
 cols_feat = utils.get_features()
-
-
 model_list = []
 root_output = ''
-dir_tsne_plots = ''
 root_feature = ''
 root_model = ''
-dbscan_eps = 1
 #is_error is either 0 or 1
 def print_usage(is_error):
     print(c.PERIODIC_MOD_USAGE, file=sys.stderr) if is_error else print(c.PERIODIC_MOD_USAGE)
@@ -51,7 +42,7 @@ def dbscan_predict(dbscan_model, X_new, metric=sp.spatial.distance.euclidean):
 
 def main():
     # test()
-    global  root_output, dir_tsne_plots, model_list , root_feature, root_model, dbscan_eps
+    global  root_output, model_list , root_feature, root_model, dbscan_eps
 
     # Parse Arguments
     parser = argparse.ArgumentParser(usage=c.PERIODIC_MOD_USAGE, add_help=False)
@@ -109,7 +100,7 @@ def main():
 
 
 def train_models():
-    global root_feature, root_model, root_output, dir_tsne_plots
+    global root_feature, root_model, root_output
     """
     Scan feature folder for each device
     """
@@ -132,22 +123,10 @@ def train_models():
             lparas.append((train_data_file, dname, random_state))
     # p = Pool(num_pools)
     t0 = time.time()
-    # exit(1)
+
     for i in range(len(lparas)):
         list_results = eid_wrapper(lparas[i])
-    # list_results = p.map(eid_wrapper, lparas)
-    # for paras in lparas:
-    #     list_results = eid_wrapper(paras)
-    # print(list_results)
-    # for ret in list_results:
-    #     if ret is None or len(ret) == 0: continue
-    #     for res in ret:
-    #         tmp_outfile = res[0]
-    #         tmp_res = res[1:]
-    #         with open(tmp_outfile, 'a+') as off:
-    #             # off.write('random_state:',random_state)
-    #             off.write('%s\n' % '\t'.join(map(str, tmp_res)))
-    #             print('Agg saved to %s' % tmp_outfile)
+
     t1 = time.time()
     print('Time to train all models for %s devices using %s threads: %.2f' % (len(lparas),num_pools, (t1 - t0)))
 
@@ -185,7 +164,7 @@ def eval_individual_device(train_data_file, dname, random_state, specified_model
 
 
     """
-    Get period from fingerprinting files
+    Get periods from fingerprinting files
     """
     periodic_tuple = []
     tmp_host_set = set()
@@ -370,7 +349,15 @@ def eval_individual_device(train_data_file, dname, random_state, specified_model
         events_part = events[filter_test]
         y_labels_test_part = y_labels_test[filter_test]
         ## DBSCAN
-        eps_list = {}
+        ## eps obtained from validation sets
+        eps_list = {'gosund-bulb1':4, 'amazon-plug':6, 'govee-led1':2,'switchbot-hub':6.5, 'meross-dooropener':6,
+        't-philips-hub':10,'echospot':2, 'yi-camera':15,'tplink-plug':10,'magichome-strip':1, 
+        'microseven-camera':6, 'icsee-doorbell':10, 'aqara-hub':2, 'nest-tstat':1.3,'tplink-bulb':10,
+        'google-home-mini':20, 'smartthings-hub':0.3,'wyze-cam':15, 'tuya-camera':15, 'smartlife-bulb':3,
+        'lefun-cam-wired':6, 'dlink-camera':8,'echoshow5':0.75,'ring-doorbell':20, 't-wemo-plug':10,
+        'ubell-doorbell':15,'wansview-cam-wired':5, 'ring-camera':20,'echoplus':0.5, 'echodot3c':0.5,
+        'zmodo-doorbell':20,'philips-bulb':4,'luohe-spycam':10, 'xiaomi-hub':1, 'blink-security-hub':2,'lgtv-wired':10,'roku-tv':1,'xiaomi-strip':3,'lightify-hub':2,
+        'amcrest-cam-wired':20, 'samsungtv-wired':10, 'ikettle':3,'insteon-hub':10}
         if dname in eps_list : 
             eps = eps_list[dname]
         else:
@@ -383,7 +370,6 @@ def eval_individual_device(train_data_file, dname, random_state, specified_model
             y_train = model.fit_predict(test_feature_part)
 
         
-        #TODO 
         if len(test_feature_part) == 0:
             print('test feature matched host/proto == 0') 
             model_dictionary = dict({'trained_model':model})

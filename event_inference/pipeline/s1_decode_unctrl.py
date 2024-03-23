@@ -547,7 +547,7 @@ def main():
     ip_hosts_all = {}
 
     if in_txt.endswith('uncontrolled_dataset.txt') or in_txt.endswith('uncontrolled_dataset02.txt'):
-        model_file = './ip_host/uncontrolled_21-22_3month.model'
+        model_file = './ip_host/uncontrolled_21-22.model'
     else:
         exit(1)
     ip_hosts_all = pickle.load(open(model_file, 'rb'))

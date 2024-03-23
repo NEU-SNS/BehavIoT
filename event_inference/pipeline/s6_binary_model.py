@@ -101,11 +101,10 @@ def main():
             if not os.path.exists(model_dir):
                 os.mkdir(model_dir)
 
-    train_models()
+    train_models(root_feature, root_model, root_output)
 
 
-def train_models():
-    # global root_feature, root_model, root_output
+def train_models(root_feature, root_model, root_output):
     """
     Scan feature folder for each device
     """
@@ -152,7 +151,6 @@ def eid_wrapper(a):
 
 
 def eval_individual_device(train_data_file, dname, random_state):
-    # global root_feature, root_model, root_output
 
     """
     training/testing/evaluation of an individual device 
@@ -292,13 +290,6 @@ def eval_individual_device(train_data_file, dname, random_state):
         """
         Set new binary labels for training and testing set
         """
-        # if positive_label not in activity_fingerprint_dic:
-        #     print('Error: positive label not in activity_fingerprint_dic')
-        #     exit(1)
-        # cur_fingerprint_list = activity_fingerprint_dic[positive_label] # set of domain_name,protocol
-        # train_host_protocol = ["%s,%s"%(i,j) for i, j in zip(train_hosts,train_protocol)]
-        # test_host_protocol = ["%s,%s"%(i,j) for i, j in zip(test_hosts,test_protocol)]
-
         y_train_tmp = np.array(y_train)
         y_test_tmp = np.array(y_test)
         filter_tmp = []
@@ -493,16 +484,7 @@ def eval_individual_device(train_data_file, dname, random_state):
                     predicted_label = tmp_label_list[i]
                     proba = tmp_proba_list[i]
         event_dict[k] = [predicted_label, event_dict[k][-1]]    # predicted label, true label
-    
-    #### idle/unctrl set: 
-    # for i in range(len(predict_labels_agg)):
-    #     cur_label = predict_labels_agg[i][0][0]
-    #     cur_proba = predict_labels_agg[i][0][1]
-    #     if cur_label != '000':
-    #         cur_time = test_timestamp[i]
-    #         for j in range(len(predict_labels_agg)):
-    #             if i != j and test_timestamp[j] >= cur_time and test_timestamp[j] <= cur_time+20:
-    #                 predict_labels_agg[j]
+
 
     '''
     Step 3: calculate event level results
@@ -548,9 +530,9 @@ def eval_individual_device(train_data_file, dname, random_state):
     """
     with open(output_file,'a+') as of:
         if len(idle_FP_test)!=0:
-            of.write('Idle traffic: Overall FP rate: %.2f, # of FP: %d , %d\n' % (len(idle_fp_set)/len(idle_FP_test), len(idle_fp_set), len(idle_FP_test))) # for idle
+            of.write('Skip this if not idle dataset: idle traffic overall FP rate: %.2f, # of FP: %d , %d\n' % (len(idle_fp_set)/len(idle_FP_test), len(idle_fp_set), len(idle_FP_test))) # for idle
         else:
-            of.write('Idle traffic: Overall FP rate: 0, # of FP: 0 , 0\n' )
+            of.write('Skip this if not idle dataset: idle traffic overall FP rate: 0, # of FP: 0 , 0\n' )
     '''
     Logs
     '''

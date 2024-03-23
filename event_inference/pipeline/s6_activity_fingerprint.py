@@ -14,12 +14,13 @@ warnings.simplefilter("ignore", category=DeprecationWarning)
 warnings.simplefilter("ignore", category=FutureWarning)
 
 num_pools = 1
-
 root_output = ''
 root_feature = ''
 root_model = ''
 
-
+"""
+This script captures the hostname fingerprints of user events. It's not required for event inference. See usage.md for details. 
+"""
 def main():
     global  root_output, model_list , root_feature, root_model
 
@@ -79,11 +80,10 @@ def main():
         os.system('mkdir -pv %s' % root_output)
 
 
-    train_models()
+    train_models(root_feature, root_output)
 
 
-def train_models():
-    # global root_feature, root_model, root_output
+def train_models(root_feature, root_output):
     """
     Scan feature folder for each device
     """
@@ -124,6 +124,7 @@ def eid_wrapper(a):
 
 
 def fingerprint_individual_device(train_data_file, dname, random_state):
+    global root_output
     """
     fingerprinting
     INPUT: 

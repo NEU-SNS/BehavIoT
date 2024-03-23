@@ -11,17 +11,13 @@ from sklearn.cluster import DBSCAN
 import time
 from multiprocessing import Pool
 import Constants as c
-
 warnings.simplefilter("ignore", category=DeprecationWarning)
+warnings.simplefilter("ignore", category=FutureWarning)
 
 num_pools = 12
-
 cols_feat = utils.get_features()
-
-
 model_list = []
 root_output = ''
-dir_tsne_plots = ''
 dataset = ''
 root_model = ''
 dbscan_eps = 1
@@ -32,19 +28,14 @@ def print_usage(is_error):
     exit(is_error)
 
 def dbscan_predict(dbscan_model, X_new, metric=sp.spatial.distance.euclidean):
-    # Result is noise by default   euclidean_distances
-    # pass
     y_new = np.ones(shape=len(X_new), dtype=int)*-1 
-
-
-    # print('shape y_new:',len(y_new))
     # Iterate all input samples for a label
     for j, x_new in enumerate(X_new):
         # Find a core sample closer than EPS
         # print(dbscan_model.components_)
         for i, x_core in enumerate(dbscan_model.components_):
             # print(metric(x_new, x_core))
-            if metric(x_new, x_core) < (dbscan_model.eps): # np.reshape(x_new, (1,-1)), np.reshape(x_core,(1,-1))
+            if metric(x_new, x_core) < (dbscan_model.eps): 
                 # Assign label of x_core to x_new
                 y_new[j] = dbscan_model.labels_[dbscan_model.core_sample_indices_[i]]
                 break
@@ -52,8 +43,7 @@ def dbscan_predict(dbscan_model, X_new, metric=sp.spatial.distance.euclidean):
     return y_new
 
 def main():
-    # test()
-    global  dataset, root_output, dir_tsne_plots, model_list , root_model, dbscan_eps, mac_dic
+    global  dataset, root_output, model_list , root_model, dbscan_eps, mac_dic
 
     # Parse Arguments
     parser = argparse.ArgumentParser(usage=c.PERIODIC_MOD_USAGE, add_help=False)
@@ -110,7 +100,7 @@ def main():
 
 
 def train_models():
-    global dataset, root_model, root_output, dir_tsne_plots, mac_dic
+    global dataset, root_model, root_output, mac_dic
     """
     Scan feature folder for each device
     """
@@ -131,20 +121,8 @@ def train_models():
     p = Pool(num_pools)
     t0 = time.time()
     list_results = p.map(eid_wrapper, lparas)
-    # for paras in lparas:
-    #     list_results = eid_wrapper(paras)
-    # print(list_results)
-    # for ret in list_results:
-    #     if ret is None or len(ret) == 0: continue
-    #     for res in ret:
-    #         tmp_outfile = res[0]
-    #         tmp_res = res[1:]
-    #         with open(tmp_outfile, 'a+') as off:
-    #             # off.write('random_state:',random_state)
-    #             off.write('%s\n' % '\t'.join(map(str, tmp_res)))
-    #             print('Agg saved to %s' % tmp_outfile)
     t1 = time.time()
-    print('Time to train all models for %s devices using %s threads: %.2f' % (len(lparas),num_pools, (t1 - t0)))
+    print('Time for %s devices using %s threads: %.2f' % (len(lparas),num_pools, (t1 - t0)))
 
 
 
@@ -154,11 +132,6 @@ def eid_wrapper(a):
 
 def eval_individual_device(dataset, dname, random_state, specified_models=None):
     global root_model, root_output, dbscan_eps
-    """
-
-    """
-    warnings.simplefilter("ignore", category=DeprecationWarning)
-    warnings.simplefilter("ignore", category=FutureWarning)
 
     """
     Prepare the directories and add only models that have not been trained yet 
@@ -330,7 +303,7 @@ def eval_individual_device(dataset, dname, random_state, specified_models=None):
         events_part = events[filter_test]
         y_labels_test_part = y_labels_test[filter_test]
         if len(test_feature_part) == 0:
-            print('test feature matched host/proto == 0')  # , test_hosts[7], test_protocols[7]
+            print('test feature matched host/proto == 0')  
             continue
         print(test_feature_part.shape)
 
@@ -368,7 +341,7 @@ def eval_individual_device(dataset, dname, random_state, specified_models=None):
                 filter_list.append(False)   # periodic traffic
 
         if len(filter_list) != len(y_new):
-            print('ER')
+            exit(1)
         count_tmp = 0
         for i in range(len(filter_test)):
             if filter_test[i] == False:
@@ -379,11 +352,10 @@ def eval_individual_device(dataset, dname, random_state, specified_models=None):
                     filter_test[i] = False
                 count_tmp += 1
             else:
-                print('ER')
                 exit(1)
         
         if len(filter_test) != len(test_feature):
-            print('ER')
+            exit(1)
 
 
         test_feature = test_feature[filter_test]
@@ -446,7 +418,6 @@ def eval_individual_device(dataset, dname, random_state, specified_models=None):
     test_feature.to_csv(filtered_train_processed, index=False)
 
     return 0
-
 
 
 if __name__ == '__main__':

@@ -1,7 +1,7 @@
 import sys
 import os
 
-#script paths
+# script paths
 PATH = sys.argv[0]
 MODEL_DIR = os.path.dirname(PATH)
 if MODEL_DIR == "":
@@ -9,20 +9,20 @@ if MODEL_DIR == "":
 SRC_DIR = MODEL_DIR + "/src/"
 RANDOM_STATE = 422
 
-#output paths
+# output paths
 OUT_DIR = "results/"
 for i, arg in enumerate(sys.argv):
     if arg == "-o" and i + 1 < len(sys.argv):
         OUT_DIR = sys.argv[i + 1]
         break
 
-#basics
+# basics
 RED = "\033[31;1m"
 BLUE = "\033[36;1m"
 END = "\033[0m"
 BEG = RED + PATH + ": Error: "
 
-#basic errors
+# basic errors
 NON_POS = BEG + "The number of processes must be a positive integer. Received \"%s\"." + END
 WRONG_NUM_ARGS = BEG + "%d arguments required. %d arguments found." + END
 MISSING = BEG + "The \"%s\" %s is missing.\n"\
@@ -33,7 +33,7 @@ WRONG_EXT = BEG + "%s must be a %s file. Received \"%s\"" + END
 
 
 
-#eval_model.py errors
+# errors
 NO_FEAT_DIR = BEG + "Features directory (-i) required." + END
 NO_MOD_DIR = BEG + "Model directory (-o) required." + END
 
